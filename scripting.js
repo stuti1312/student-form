@@ -5,12 +5,12 @@ function validateName(){
        document.getElementById('messageN').innerHTML="**Please enter the name";
        return false;
    }
-   /*
+   /* this code can be used for string validaton but need some changes.
    if( !(c>='a' && c<='z') && !(c>='A' && c<='Z') && !(c==" ") ){
         document.getElementById('messageN').innerHTML="**Please enter the valid input";
         return false;
    }*/
-  /*
+  /* this code works for string validation
    for(i=2; i<c.length; i++)
    {
        ch=c.charAt(i);
