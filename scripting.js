@@ -65,7 +65,7 @@ function mob(){
     }
 }
 
-/*
+/* this pattern is used for mail validation but needs full code to work.
 function mail(){
     var pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
 }
